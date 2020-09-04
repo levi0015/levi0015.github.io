@@ -7,6 +7,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #EEEEEE;
 }
+.grid-container {
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+    margin-left: -250px;
+} 
+h2{
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 2em;
+}
+h6 /* Voor een teken voor extra witregel */{
+    color: #eeeeee
+}
 .header {
     overflow: hidden;
     background-color: #AE7000;
@@ -44,6 +58,11 @@ body {
     text-decoration: none;
     height: 75px;
     border-radius: 50%;
+}
+.line-up-text {
+    margin-top: 0px;
+    margin-left: 75px;
+    max-width: 51%;
 }
 .footer {
     background-color: #AE7000;
