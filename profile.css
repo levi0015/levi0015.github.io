@@ -1,0 +1,38 @@
+.grid-container {
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+    margin-left: -250px;
+} 
+.left, .middle-l, .middle-r {
+    padding: 5px;
+    margin: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: black;
+    background-color: #DDDDDD;
+    text-align: center;
+    width: 300px;
+    height: max-content;
+}
+.left img {
+    margin-bottom: 10px;
+}
+.right {
+    margin-left: 100px;
+    height: 600px;
+}
+.right img {
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.left ul, .middle-l ul, .middle-r ul {
+    text-align: left;
+}
+h2{
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 2em;
+}
