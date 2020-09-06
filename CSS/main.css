@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     min-width: 400px;
-    margin-left: 0px;
+    margin-left: -250px;
 } 
 h2{
     margin-top: 30px;
