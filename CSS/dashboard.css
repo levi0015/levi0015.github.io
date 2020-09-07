@@ -1,14 +1,51 @@
-.table th, .table td{
-    border: solid;
-    border-color: #444444;
+.table {
+    margin-left: 75px;
+}
+th, td {
+    padding: 10px;
+}
+.tablebody th, .tablebody td {
+    border: 3px solid #444444;
     background-color: #dddddd;
 }
-.table {
-    margin: 20px 30px;
+.theads th {
+    background-color: #bbbbbb;
+}
+.totalEC th {
+    background-color: #dddddd;
+}
+#emptycol {
+    border: none;
+    background-color: #eeeeee;
+    padding-top: 15px;
+}
+#tablehead {
+    text-align: center;
+}
+.dashboard {
+    display: flex;
 }
 .red {
     color: red;
 }
 .green {
     color: rgb(0, 225, 0);
+}
+ul.nobullets {
+    list-style-type: none;
+}
+.studyguide {
+    margin-left: 75px;
+}
+.studyguide img {
+    margin: 20px 40px;
+    border: solid;
+    border-color: #eeeeee;
+    border-radius: 40px;
+}
+.links {
+    text-align: left;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
 }
