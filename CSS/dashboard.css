@@ -1,0 +1,14 @@
+.table th, .table td{
+    border: solid;
+    border-color: #444444;
+    background-color: #dddddd;
+}
+.table {
+    margin: 20px 30px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: rgb(0, 225, 0);
+}

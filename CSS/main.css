@@ -9,13 +9,12 @@ body {
 }
 .grid-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     min-width: 400px;
-    margin-left: -250px;
+    margin-left: 75px;
 } 
 h2{
     margin-top: 30px;
-    margin-left: 75px;
     font-size: 2em;
 }
 h6 /* Voor een teken voor extra witregel */{
