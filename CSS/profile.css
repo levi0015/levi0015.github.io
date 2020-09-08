@@ -20,9 +20,9 @@
     height: 600px;
 }
 .right img {
-    border: solid;
-    border-color: black;
+    border: none;
     border-radius: 20px;
+    box-shadow: 5px 10px 8px #444444;
     margin-top: 10px;
 }
 .left ul, .middle-l ul, .middle-r ul {

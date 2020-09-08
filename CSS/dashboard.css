@@ -1,3 +1,6 @@
+h1 {
+    margin: 30px 75px;
+}
 .table {
     margin-left: 75px;
 }
@@ -25,8 +28,8 @@ th, td {
 .dashboard {
     display: flex;
 }
-.red {
-    color: red;
+.orange {
+    color: orange;
 }
 .green {
     color: rgb(0, 225, 0);
@@ -48,4 +51,10 @@ ul.nobullets {
     margin-left: 40px;
     text-decoration: none;
     color: white;
+}
+.links img {
+    border: none;
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px #444444;
+    margin-left: 75px;
 }

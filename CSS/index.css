@@ -5,7 +5,8 @@
     height: max-content;
 }
 .bottom-img img {
-    border: solid;
-    border-color: #eeeeee;
-    margin-left: 70px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #444444;
+    margin-left: 75px;
 }

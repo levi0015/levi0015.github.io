@@ -1,3 +1,9 @@
 .faqwidth {
     width: 300px;
 }
+.faq img {
+    border: none;
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px black;
+    margin-left: 75px;
+}

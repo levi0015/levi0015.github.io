@@ -7,9 +7,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #EEEEEE;
 }
-h1 {
-    margin: 30px 75px;
-}
 .grid-container {
     display: flex;
     justify-content: flex-start;
