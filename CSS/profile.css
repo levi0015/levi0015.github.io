@@ -1,4 +1,6 @@
-.left, .middle-l, .middle-r {
+.left,
+.middle-l,
+.middle-r {
     padding: 5px;
     margin: 10px;
     border: solid;
@@ -9,30 +11,40 @@
     width: 300px;
     height: max-content;
 }
-.left img, .middle-l img, .middle-r img {
-    margin-bottom: 10px;
+
+.left img,
+.middle-l img,
+.middle-r img {
     border: solid;
     border-color: #DDDDDD;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
+
 .right {
     margin-left: 100px;
     height: 600px;
 }
+
 .right img {
     border: none;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #444444;
     margin-top: 10px;
 }
-.left ul, .middle-l ul, .middle-r ul {
+
+.left ul,
+.middle-l ul,
+.middle-r ul {
     text-align: left;
 }
+
 .bottom-text {
     margin-top: 75px;
     margin-left: 75px;
     max-width: 51%;
 }
+
 .h2 {
     margin-left: 75px;
 }
