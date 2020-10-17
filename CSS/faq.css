@@ -1,5 +1,9 @@
 .faqwidth {
-    width: 300px;
+    width: 25%;
+}
+
+.tablebody {
+    text-align: center;
 }
 
 .faq img {
