@@ -47,10 +47,6 @@ td {
     color: rgb(0, 225, 0);
 }
 
-ul.nobullets {
-    list-style-type: none;
-}
-
 .studyguide {
     margin-left: 75px;
 }
@@ -60,18 +56,4 @@ ul.nobullets {
     border: solid;
     border-color: #eeeeee;
     border-radius: 40px;
-}
-
-.links {
-    text-align: left;
-    margin-left: 40px;
-    text-decoration: none;
-    color: white;
-}
-
-.links img {
-    border: none;
-    border-radius: 10%;
-    box-shadow: 5px 10px 8px #444444;
-    margin-left: 75px;
 }

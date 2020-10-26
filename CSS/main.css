@@ -70,6 +70,24 @@ h6
     max-width: 51%;
 }
 
+ul.nobullets {
+    list-style-type: none;
+}
+
+.links {
+    text-align: left;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.links img {
+    border: none;
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px #444444;
+    margin-left: 75px;
+}
+
 .footer {
     background-color: #AE7000;
     padding: 1px;
