@@ -1,0 +1,25 @@
+.company {
+    border: 3px solid #444444;
+    background-color: #dddddd;
+    margin: 0px 75px 25px 75px;
+    text-align: left;
+    max-width: 1000px;
+}
+
+#emptycolinside {
+    border: none;
+    background-color: #dddddd;
+}
+
+#emptycoloutside {
+    border: none;
+    background-color: #eeeeee;
+}
+
+.jobs {
+    display: flex;
+}
+
+.work {
+    display: flex;
+}
