@@ -57,3 +57,10 @@ td {
     border-color: #eeeeee;
     border-radius: 40px;
 }
+
+.links img {
+    border: none;
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px #444444;
+    margin-left: 75px;
+}
