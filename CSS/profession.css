@@ -16,6 +16,16 @@
     background-color: #eeeeee;
 }
 
+.picture {
+    width: 50%;
+    display: flex;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+}
+
 .jobs {
     display: flex;
 }
