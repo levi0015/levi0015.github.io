@@ -17,12 +17,8 @@ td {
     background-color: #dddddd;
 }
 
-.theads th {
+.table th {
     background-color: #bbbbbb;
-}
-
-.totalEC th {
-    background-color: #dddddd;
 }
 
 #emptycol {
