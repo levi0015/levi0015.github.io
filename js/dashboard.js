@@ -17,7 +17,9 @@ function checkIfPassed() {
 
     for (let i = 0; i < allGrades.length; i++) {
         if (allGrades[i].parentElement.childElementCount === 6) {
-            if (allGrades[i].innerText !== '-') {
+            if (allGrades[i].innerText === 'Pass') {
+                count = 1000
+            } else if (allGrades[i].innerText !== '-') {
                 count = (Number(allGrades[i].innerText) * Number(allGrades[i].parentElement.children[2].innerText));
             }
             if (i < allGrades.length - 1 && allGrades[i].innerText !== '-') {
@@ -88,7 +90,7 @@ function changeGradeStyle() {
                     allGrades[i].parentElement.children[j].style.backgroundColor = "red";
                 } else if (allGrades[i].innerText >= 5.5 && allGrades[i].innerText <= 5.9) {
                     allGrades[i].parentElement.children[j].style.backgroundColor = "orange";
-                } else if (allGrades[i].innerText >= 6 && allGrades[i].innerText <= 10) {
+                } else if (allGrades[i].innerText >= 6 && allGrades[i].innerText <= 10 || allGrades[i].innerText === 'Pass') {
                     allGrades[i].parentElement.children[j].style.backgroundColor = "rgb(0, 255, 0)";
                 }
             }
@@ -98,7 +100,7 @@ function changeGradeStyle() {
                     allGrades[i].parentElement.children[j].style.backgroundColor = "red";
                 } else if (allGrades[i].innerText >= 5.5 && allGrades[i].innerText <= 5.9) {
                     allGrades[i].parentElement.children[j].style.backgroundColor = "orange";
-                } else if (allGrades[i].innerText >= 6 && allGrades[i].innerText <= 10) {
+                } else if (allGrades[i].innerText >= 6 && allGrades[i].innerText <= 10 || allGrades[i].innerText === 'Pass') {
                     allGrades[i].parentElement.children[j].style.backgroundColor = "rgb(0, 255, 0)";
                 }
             }
@@ -107,7 +109,7 @@ function changeGradeStyle() {
             allGrades[i].style.backgroundColor = "rgb(0, 200, 0)";
         } else if (allGrades[i].innerText >= 8 && allGrades[i].innerText <= 9.9) {
             allGrades[i].style.backgroundColor = "rgb(0, 150, 0)";
-        } else if (allGrades[i].innerText == 10) {
+        } else if (allGrades[i].innerText == 10 || allGrades[i].innerText === 'Pass') {
             allGrades[i].style.color = "yellow";
             allGrades[i].style.backgroundColor = "rgb(0, 105, 0)";
         }
